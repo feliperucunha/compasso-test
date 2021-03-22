@@ -1,0 +1,46 @@
+.search {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    margin-left: 3px;
+    margin-top: 50px;
+  }
+  
+.card {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  border: none;
+  max-width: 27%;
+  max-height: 25%;
+  margin-left: 36%;
+}
+
+.card-head {
+  display: block;
+  flex-direction: column;
+}
+
+.username {
+  font-size: 15px !important;
+  padding-top: 2px !important;
+  color: #666666 !important;
+}
+
+.following {
+  padding-left: 15px;;
+}
+
+.error {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 800;
+  color: white;
+  font-family: sans-serif;
+  line-height: 7;
+}
+
+.error img {
+  width: 400px;
+}
