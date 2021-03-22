@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Form, Card, Image, Icon } from 'semantic-ui-react';
+import { NavLink } from 'react-router-dom';
 import './styles.css';
 
 export default function UserCard({searchTerm}) {
@@ -67,8 +68,8 @@ export default function UserCard({searchTerm}) {
       <div className="search">
         <Form onSubmit={handleSubmit}>
           <Form.Group>
-            <Form.Input placeholder='Usuário' name='github user' onChange={handleSearch}/>
-            <Form.Button color="orange" content='Procurar' />
+            <Form.Input size="big" placeholder='Insira um usuário' name='github user' onChange={handleSearch}/>
+            <Form.Button size="big" color="orange" content='Procurar' />
           </Form.Group>
         </Form>
       </div>
@@ -97,10 +98,12 @@ export default function UserCard({searchTerm}) {
             </Card.Content>
 
             <Card.Content extra>
-              <a>
-                <Icon name='fork' />
-                {repos} Repositório(s)
-              </a>
+              <NavLink to={{ pathname: '/repos', state: { searchTerm } }}>
+                <a>
+                  <Icon name='fork' />
+                  {repos} Repositório(s)
+                </a>
+              </NavLink>
             </Card.Content>
             <Card.Content extra>
               <a>

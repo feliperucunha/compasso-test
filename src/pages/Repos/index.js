@@ -14,6 +14,7 @@ export default function Repos() {
     <div>
       <Navbar searchTerm={location.state.searchTerm}/>
       <div className="table-container">
+        
         <NavLink to="/">
           <div className="arrow-container">
             <Icon name="long arrow alternate left" size="large"/>

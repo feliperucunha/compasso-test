@@ -13,10 +13,10 @@ export default function CardPage() {
   return (
     <div className="card-container">
       <Navbar searchTerm={location.state.userInput}/>
-      
+
       <NavLink to="/">
         <div className="arrow-container">
-          <Icon name="long arrow alternate left" size="large" color="black"/>
+          <Icon name="arrow alternate circle left outline" size="big" />
         </div>
       </NavLink>
 

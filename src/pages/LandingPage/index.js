@@ -17,7 +17,7 @@ export default function LandingPage() {
       <div className="search-container">
         <Form>
           <Form.Group>
-            <Form.Input size='massive' placeholder='Usuário' name='github user' onChange={handleSearch}/>
+            <Form.Input size='massive' placeholder='Insira um usuário' name='github user' onChange={handleSearch}/>
             <NavLink to={{ pathname: '/card', state: { userInput } }}>
               <Form.Button size='massive' color="orange" content='Procurar'/>
             </NavLink>

@@ -1,10 +1,11 @@
 .wrapper {
   height: 100%;
   width: 100%;
-  background: #FF8C00;
+  background: #FFA500;
+  background: linear-gradient(180deg, #FFA500 26%, rgba(255,255,240,1) 92%);
 }
 
 .content{
   width: 100%;
-  background: #FF8C00;
+
 }
