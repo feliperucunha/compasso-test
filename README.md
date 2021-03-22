@@ -1,4 +1,4 @@
-# Prova Frontend para a empresa Uol Compasso
+# Prova Frontend para a empresa UOL Compasso
 ## Como rodar o projeto
 * Digite o comando "yarn" sem aspas na pasta raiz do projeto
 * Digite o comando "yarn start" sem aspas após instalar as dependências com o comando acima.
@@ -17,3 +17,8 @@ também.
 * Utilização de styled components.
 * Habilitar paginação nas tabelas.
 * Hospedar (deploy).
+
+<img src="src/assets/print1.png" width="70%">
+<img src="src/assets/print2.png" width="70%">
+<img src="src/assets/print3.png" width="70%">
+<img src="src/assets/print4.png" width="70%">
