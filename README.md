@@ -16,7 +16,7 @@ também.
 ## Pontos a melhorar
 * Utilização de styled components.
 * Habilitar paginação nas tabelas.
-* Hospedar (deploy).
+* Hospedar (deploy). 
 
 <img src="src/assets/print1.png" width="70%">
 <img src="src/assets/print2.png" width="70%">
