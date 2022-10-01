@@ -1,13 +1,10 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from 'react';
 import { Icon, Menu, Table } from 'semantic-ui-react'
 import './styles.css';
 
 export default function RepoTable({searchTerm}) {
   const [data, setData] = useState([]);
-
-  // if (!searchTerm) {
-  //   searchTerm = 'feliperucunha';
-  // }
   
   useEffect(() => {
     fetch(`https://api.github.com/users/${searchTerm}/repos`)

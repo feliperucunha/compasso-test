@@ -7,7 +7,7 @@ export default function Navbar({searchTerm}) {
     return (
       <div className="navbar">
         <NavLink to="/">
-          <img src="https://compassouol.com/wp-content/uploads/2020/07/LogoCompasso-branco.png.webp" />
+          <img src="/" />
         </NavLink>
 
         { searchTerm ? (

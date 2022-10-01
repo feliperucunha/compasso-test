@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+/* eslint-disable react-hooks/exhaustive-deps */
 import React, { useState, useEffect } from 'react';
 import { Form, Card, Image, Icon } from 'semantic-ui-react';
 import { NavLink } from 'react-router-dom';
@@ -77,7 +79,7 @@ export default function UserCard({searchTerm}) {
       { error ? (
         <div className="error">
           <span>Usuário não encontrado</span>
-          <img src="http://pngimg.com/uploads/dog/dog_PNG50348.png" />
+          <img alt='dog' src="http://pngimg.com/uploads/dog/dog_PNG50348.png" />
         </div>   
       ) : (
         <div className="card">
@@ -115,38 +117,38 @@ export default function UserCard({searchTerm}) {
                 {following} Seguindo
               </a>
             </Card.Content>
-            { location ? (
+            { location && (
               <Card.Content extra>
                 <a>
                   <Icon name='map' />
                   {location}
                 </a>
               </Card.Content>
-            ) : (null)}
-            { twitter ? (
+            )}
+            { twitter && (
               <Card.Content extra>
                 <a href={twitterLink}>
                 <Icon name='twitter' />
                 {twitter}
                 </a>
               </Card.Content>
-            ) : (null)}
-            { blog ? (
+            )}
+            { blog && (
               <Card.Content extra>
                 <a href={blog}>
                 <Icon name='world' />
                 Visitar Blog
                 </a>
               </Card.Content>
-            ) : (null)}
-            { company ? (
+            )}
+            { company && (
               <Card.Content extra>
                 <a>
                   <Icon name='building' />
                   {company}
                 </a>
               </Card.Content>
-            ) : (null)}
+            )}
 
             </Card>
         </div>
