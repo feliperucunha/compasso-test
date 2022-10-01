@@ -1,6 +1,5 @@
 import React from 'react';
-import RepoTable from '../../components/RepoTable';
-import Navbar from '../../components/Navbar'
+import { RepoTable, Navbar } from '../../components';
 import { NavLink, useHistory } from 'react-router-dom';
 import { Icon } from 'semantic-ui-react';
 

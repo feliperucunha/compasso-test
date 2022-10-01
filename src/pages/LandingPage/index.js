@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Form } from 'semantic-ui-react';
-import Navbar from '../../components/Navbar'
+import { Navbar } from '../../components';
 import { NavLink } from 'react-router-dom';
 import './styles.css';
 
