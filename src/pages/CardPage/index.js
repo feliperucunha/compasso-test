@@ -1,6 +1,5 @@
 import React from 'react';
-import UserCard from '../../components/Card';
-import Navbar from '../../components/Navbar'
+import { UserCard, Navbar } from '../../components';
 import { NavLink, useHistory } from 'react-router-dom';
 import { Icon } from 'semantic-ui-react';
 

@@ -1,6 +1,5 @@
 import React from 'react';
-import StarredTable from '../../components/StarredTable';
-import Navbar from '../../components/Navbar'
+import { StarredTable, Navbar } from '../../components';
 import { NavLink, useHistory } from 'react-router-dom';
 import { Icon } from 'semantic-ui-react';
 
